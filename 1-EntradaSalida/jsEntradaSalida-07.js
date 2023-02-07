@@ -5,9 +5,9 @@ mostrar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
 {	
-	let = valorUno;
-	let = valorDos;
-	let = suma;
+	let valorUno;
+	let valorDos;
+	let suma;
 
 	valorUno = txtIdNumeroUno.value;//----->es texto  //document.getElementById("txtIdNumeroUno").value;
 	valorDos = txtIdNumeroDos.value;  //document.getElementById("txtIdNumeroDos").value;
@@ -22,9 +22,9 @@ function sumar()
 
 function restar()
 {
-	let = valorUno;
-	let = valorDos;
-	let = resta;
+	let valorUno;
+	let valorDos;
+	let resta;
 
 	valorUno = txtIdNumeroUno.value;//----->es texto  //document.getElementById("txtIdNumeroUno").value;
 	valorDos = txtIdNumeroDos.value;  //document.getElementById("txtIdNumeroDos").value;
@@ -39,9 +39,9 @@ function restar()
 
 function multiplicar()
 { 
-	let = valorUno;
-	let = valorDos;
-	let = multiplicar;
+	let valorUno;
+	let valorDos;
+	let multiplicar;
 
 	valorUno = txtIdNumeroUno.value;//----->es texto  //document.getElementById("txtIdNumeroUno").value;
 	valorDos = txtIdNumeroDos.value;  //document.getElementById("txtIdNumeroDos").value;
@@ -56,9 +56,9 @@ function multiplicar()
 
 function dividir()
 {
-	let = valorUno;
-	let = valorDos;
-	let = dividir;
+	let valorUno;
+	let valorDos;
+	let dividir;
 
 	valorUno = txtIdNumeroUno.value;//----->es texto  //document.getElementById("txtIdNumeroUno").value;
 	valorDos = txtIdNumeroDos.value;  //document.getElementById("txtIdNumeroDos").value;

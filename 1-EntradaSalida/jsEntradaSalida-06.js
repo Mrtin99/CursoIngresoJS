@@ -31,8 +31,6 @@ function sumar()
 	
 	//resultado = "valorUno" + "valorDos";
 
-	
-
 
 }
 
