@@ -11,8 +11,26 @@ function mostrar()
 	//iniciar variables
 	banderaDelPrimero="es el primero";
 	respuesta='si';
+
 	while(respuesta=="si")
 	{
+		do{
+			numeroIngresado = prompt("Ingrese un numero");
+			numeroIngresado = parseInt(numeroIngresado);
+		}while (isNaN(numeroIngresado));
+
+		while(banderaDelPrimero == true){
+			numeroMaximo = numeroIngresado;
+			numeroMinimo = numeroIngresado;
+
+			banderaDelPrimero = false-,
+		}
+		
+		if(numeroIngresado > numeroMinimo){
+			numeroMinimo = numeroIngresado;
+		}else{
+			numeroMaximo = numeroIngresado;
+		}
 		
 		respuesta=prompt("desea continuar?");
 	}

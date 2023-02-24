@@ -14,6 +14,12 @@ function ComenzarIngreso ()
  	var sexoIngresado;
  	var estadoCivilIngresado;
 
+	do{
+		edadIngresada = prompt("Ingrese una edad entre 18 y 90 años");
+		edadIngresada = parseInt(edadIngresada);
+
+	}while(edadIngresada > 18)
+
 
 
 }

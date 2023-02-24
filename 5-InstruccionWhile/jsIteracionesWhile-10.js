@@ -13,11 +13,25 @@ hasta que el usuario quiera, mostrar:
 function mostrar()
 {
 	//declarar contadores y variables 
-	var respuesta;
-	var numeroIngresado;
-	var sumaNegativos=0;
+	let numeroIngresado;
+	let sumaNegativos;
+	let cantidadNegativos;
+	let sumaPositivos;
+	let cantidadPositivos;
+	let cantidadCeros;
+	let cantidadPares;
+	let promedio
 
 	respuesta="si";
+
+
+
+
+
+
+
+
+
 
 	while(respuesta=="si")
 	{
